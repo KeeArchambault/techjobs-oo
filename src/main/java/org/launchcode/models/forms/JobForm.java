@@ -67,13 +67,6 @@ public class JobForm {
         this.name = name;
     }
 
-    public int getEmployerId() {
-        return employerId;
-    }
-
-    public void setEmployerId(int employerId) {
-        this.employerId = employerId;
-    }
 
     public ArrayList<Employer> getEmployers() {
         return employers;
@@ -107,6 +100,14 @@ public class JobForm {
         this.positionTypes = positionTypes;
     }
 
+    public int getEmployerId() {
+        return employerId;
+    }
+
+    public void setEmployerId(int employerId) {
+        this.employerId = employerId;
+    }
+
     public int getLocationId() {
         return locationId;
     }
@@ -130,5 +131,5 @@ public class JobForm {
     public void setPositionTypeId(int positionTypeId) {
         this.positionTypeId = positionTypeId;
     }
-}
 
+}
